@@ -113,7 +113,6 @@ export default {
           type: "success",
           position: "top"
         });
-        this.registerForm = {};
         if (registerData.data.accessLevel == "User") {
           this.$router.push("user-dashboard");
         } else if (registerData.data.accessLevel == "Owner") {
