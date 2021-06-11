@@ -1,5 +1,5 @@
 import axios from "axios";
-let apiUrl = "http://localhost:3000";
+let apiUrl = "https://whispering-burly-request.glitch.me";
 export default {
   async apiCallWithData(url, data) {
     try {
